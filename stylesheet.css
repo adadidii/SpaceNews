@@ -29,6 +29,11 @@ body {
   margin-top: 13px;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
 .navbar-right {
   margin-right: 120px;
 }
