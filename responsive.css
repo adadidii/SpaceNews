@@ -1,0 +1,17 @@
+@media only screen and (max-width: 480px) {
+  /** Navbar Section **/
+  .navbar {
+    width: 100%;
+    height: max-content;
+  }
+
+  .navbar-left {
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  .navbar-right {
+    margin: 0;
+    display: none;
+  }
+}

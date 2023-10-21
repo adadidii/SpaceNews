@@ -1,0 +1,142 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #eff0f3;
+}
+
+/** Navbar Section **/
+.navbar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: #a3a3a5b8;
+  padding: 15px 0 15px 0;
+}
+
+.navbar-left {
+  display: flex;
+  padding: 10px 30px 10px 30px;
+  margin-left: 50px;
+}
+
+.navbar-left p {
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 13px;
+}
+
+.navbar-right {
+  margin-right: 120px;
+}
+
+.navbar-left img {
+  height: 32px;
+  width: 32px;
+  padding-top: 10px;
+}
+
+.navbar-right li {
+  float: left;
+  list-style: none;
+  padding: 10px 30px 10px 30px;
+}
+
+.navbar-right li a {
+  text-decoration: none;
+  color: black;
+}
+
+/** Jumbotron **/
+
+.jumbotron {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 20px 20px 20px;
+}
+
+.jumbotron-left {
+  margin-left: 50px;
+}
+
+.jumbotron-left a {
+  color: black;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.jumbotron-right {
+  margin: 0 100px 0 100px;
+}
+
+.jumbotron-right h1 {
+  font-size: 50px;
+}
+
+.jumbotron-right p {
+  line-height: 30px;
+}
+
+.jumbotron-right button {
+  border: none;
+  padding: 30px 60px 30px 60px;
+  border-radius: 5px;
+  background-color: #ff8e3c;
+  font-family: "Montserrat", sans-serif;
+  margin: 50px 0 50px 0;
+  font-weight: bold;
+  font-size: 17px;
+  transform: transition 0, 5s;
+  cursor: pointer;
+}
+
+.jumbotron-right button:hover {
+  transition: ease;
+  background-color: #fc791c;
+  box-shadow: 3px 3px rgb(101, 100, 100);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.jumbotron-right button:active {
+  transform: translateX(5px), translateY(10px);
+  transform: scale(0.98);
+  box-shadow: 0px 0px rgb(101, 100, 100);
+}
+
+/** Results **/
+
+#news-list {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.news-card {
+  border: 1px solid #565353;
+  padding: 20px;
+  margin: 70px 0 30px 0;
+  text-align: center;
+  width: 750px;
+  height: max-content;
+  transition: transform 0.3s ease; /* Efek transisi ease */
+  border: 1px solid #ccc;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.news-card:hover {
+  transform: scale(1.1); /* Efek perbesaran saat dihover */
+}
+
+.news-card p {
+  padding: 20px 50px 20px 50px;
+  line-height: 25px;
+}
+
+.news-image {
+  max-width: 100%;
+  height: auto;
+}
